@@ -15,3 +15,21 @@ git clone (Create repo 하고 나오는 주소 적기)                          
 git add .                                //폴더에 있는 모든 파일 업로드 <br>
 git commit -m "my first commit"                                   <br>
 git push                                                         <br>    
+
+
+### DS Store 삭제하기
+지우기 테스트
+```
+git rm --dry-run .DS_Store
+```
+
+진짜 지우기
+```
+git rm --dry-run .DS_Store
+```
+
+```
+git add -A
+git commit -m "Remove DS_Store file"
+git push
+```
