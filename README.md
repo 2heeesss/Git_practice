@@ -19,9 +19,14 @@ git 명령어와 커밋 컨벤션에 관한 리드미 입니다.
 
 ## Remove file
 - 파일 삭제하기
-  - 파일 삭제할땐 신중하게 <br>
+  - git, 로컬 디렉토리에서 삭제
   ```
   git rm example.css
   git commit -m "Remove example.css for ~~~"  
+  ```
+  - git에서만 삭제(로컬은 그대로)
+  ```
+  git rm -cached example.js
+  git commit -m "Remove example.js"
   ```
   
