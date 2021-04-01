@@ -14,7 +14,7 @@ git 명령어와 커밋 컨벤션에 관한 리드미 입니다.
   ```git add .```
 - 커밋 작성하기
   - 커밋 컨벤션<br>
-  ```git commit -m "Add example.html```
+  ```git commit -m "Add example.html"```
   
 
 ## Remove file
