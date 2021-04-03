@@ -2,7 +2,7 @@
 git 명령어와 커밋 컨벤션에 관한 리드미 입니다.
 ## Create repository
 - 터미널 안에서 동기화 폴더로 이동 <br>
-```cd Desktop/Education```
+```cd Desktop/Education (여기에 디렉토리 생성됨)```
 - 동기화 진행하기 <br>
 ```git clone (create repo 후 생성된 주소 기입)```
 
